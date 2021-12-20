@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 body {
@@ -45,24 +46,21 @@ body {
 }
 
 .back-content {
-    text-align: center;
     color: #2c3e50;
+    text-align: center;
     width: 100%;
 }
 
 .sm {
     margin: 20px 0;
-    /* border: 1px solid red; */
 }
 
 .sm a{
-    /* border: 1px solid red; */
     display: inline-flex;
     width: 40px;
     height: 40px;
     justify-content: center;
     align-items: center;
-    /* color: #2c3e50; */
     color: inherit;
     font-size: 18px;
     transition: 0.4s;
@@ -81,21 +79,3 @@ body {
 .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
 }
-
-/* @import url('https://use.fontawesome.com/releases/v5.11.2/css/all.css');
-
-body{
-    background-color: black;
-}
-
-#test{
-    background: blanchedalmond;
-    height: 2em;
-}
-
-#test:after{
-    content: '\f099';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: bold;
-    color: black;
-} */
